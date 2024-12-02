@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Inquiry Chatbot</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Chatbot Container */
+        .chatbot-container {
+            background: #ffffff;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            max-width: 90%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Heading Styles */
+        .chatbot-container h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .chatbot-container p {
+            font-size: 14px;
+            color: #555555;
+            margin-bottom: 20px;
+        }
+
+        /* Iframe Styles */
+        iframe {
+            width: 100%;
+            height: 430px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        /* Footer Styles */
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777777;
+        }
+    </style>
+</head>
+<body>
+    <div class="chatbot-container">
+        <h1>College Inquiry Chatbot</h1>
+        <p>Ask your questions about the college and get instant responses!</p>
+        <iframe
+            allow="microphone;"
+            src="https://console.dialogflow.com/api-client/demo/embedded/a852a050-2b3b-431f-9c14-7f87376f759b">
+        </iframe>
+        <div class="footer">
+            Powered by Dialogflow
+        </div>
+    </div>
+</body>
+</html>
